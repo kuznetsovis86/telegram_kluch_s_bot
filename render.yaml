@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: telegram-book-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python book_bot.py
+    plan: free
